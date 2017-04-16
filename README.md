@@ -4,14 +4,14 @@ The tutorial will tell you how to run desktop environment inside Windows Subsyst
 
 ## Screenshot
 
-![wsl](./pictures/wsl.png "wsl")
+![wsl](pictures/wsl.png "wsl")
 
 ## Prerequisites
 
 Your PC must be running a 64-bit version of **Windows 10 Anniversary Update build 14393 or later**.
 
 To find your PC's CPU architecture and Windows version/build number, open **Settings>System>About**. Look for the OS Build and System Type fields.
-![system](./pictures/system.png "system")
+![system](pictures/system.png "system")
 
 ## Installation
 
@@ -19,11 +19,11 @@ In order to run Bash on Windows, you will need to manually:
 
 #### 1.Turn-on Developer Mode
 
-![developer](./pictures/developer.png "developer")
+![developer](pictures/developer.png "developer")
 
 #### 2.Enable the “Windows Subsystem for Linux (beta)” feature
 
-![windwos_features](./pictures/windows_features.png "windows_features")
+![windwos_features](pictures/windows_features.png "windows_features")
 
 ## After enabling Windows Subsystem for Linux
 
@@ -31,7 +31,7 @@ In order to run Bash on Windows, you will need to manually:
 
 #### 2.Run bash
 
-![bash](./pictures/bash.png "bash")
+![bash](pictures/bash.png "bash")
 
 After you have accepted the License, the Ubuntu user-mode image will be downloaded and a “Bash on Ubuntu on Windows” shortcut will be added to your start menu.
 
@@ -92,7 +92,7 @@ in /etc/dbus-1/session.conf.
 Open **XLaunch**, choose “One large window” or “One large window without titlebar” and set the “display number” to 0.
 Other settings leave as default and finish the configuration.
 
-![VcXsrv](./pictures/vcxsrv.png "vcxsrv")
+![VcXsrv](pictures/vcxsrv.png "vcxsrv")
 
 ## Run xfce desktop
 
