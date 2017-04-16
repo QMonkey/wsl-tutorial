@@ -51,7 +51,7 @@ sudo apt-get install xfce4
 Add DISPLAY=:0.0 to your bashrc, and don't forget to source your bashrc. :)
 
 ```bash
-echo "export DISPLAY=:0.0" >> ~/.bashrc
+export DISPLAY=:0.0
 ```
 
 ## Fix dbus error
@@ -116,11 +116,36 @@ sudo apt-get install fonts-hack-web
 sudo apt-get install fonts-wqy-microhei
 ```
 
+## Install Chinese input method
+
+#### 1.Install fcitx
+
+```bash
+sudo apt-get install fcitx
+sudo apt-get install fcitx-pinyin
+```
+
+#### 2.Add the following command to your bashrc file
+
+```bash
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+```
+
+#### 3.Relogin
+
 ## Install drop-down terminal
 
 ```bash
 sudo apt-get install guake
 ```
+
+## How to shutdown wsl
+
+#### 1.Close VcXsrv
+
+#### 2.Exit “Bash on Ubuntu on Windows”
 
 ## Enjoy your self
 
