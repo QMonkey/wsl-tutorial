@@ -116,6 +116,18 @@ sudo apt-get install fonts-hack-web
 sudo apt-get install fonts-wqy-microhei
 ```
 
+## Fix mkdir command has wrong permissions
+
+Add the following shell code to your bashrc
+
+```bash
+if grep -q Microsoft /proc/version; then
+    if [ "$(umask)" == '0000' ]; then
+        umask 0022
+    fi
+fi
+```
+
 ## Install Chinese input method
 
 #### 1.Install fcitx
