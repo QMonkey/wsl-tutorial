@@ -110,6 +110,16 @@ sudo apt-get install fonts-hack-ttf
 sudo apt-get install fonts-hack-web
 ```
 
+## Fix Unicode fonts rendering
+
+```bash
+sudo apt-get install fonts-noto-cjk
+sudo apt-get install fonts-noto
+sudo apt-get install fonts-noto-hinted
+sudo apt-get install fonts-noto-mono
+sudo apt-get install fonts-noto-unhinted
+```
+
 ## Fix Chinese fonts rendering
 
 ```bash
