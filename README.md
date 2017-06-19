@@ -39,6 +39,13 @@ After you have accepted the License, the Ubuntu user-mode image will be download
 
 Install the lastest version of [VcXsrv](https://sourceforge.net/projects/vcxsrv/).
 
+## Upgrade ubuntu
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+
 ## Install xfce desktop
 
 ```bash
