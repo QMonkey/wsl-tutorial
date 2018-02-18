@@ -55,7 +55,7 @@ sudo apt-get install xfce4
 
 ## Specify the display server
 
-Add DISPLAY=:0.0 to your bashrc, and don't forget to source your bashrc. :)
+Add DISPLAY=:0.0 to your `~/.bashrc`, and don't forget to run `source ~/.bashrc`. :)
 
 ```bash
 export DISPLAY=:0.0
