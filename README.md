@@ -111,11 +111,7 @@ startxfce4
 
 ## Fix powerline fonts rendering
 
-```bash
-sudo apt-get install fonts-hack-otf
-sudo apt-get install fonts-hack-ttf
-sudo apt-get install fonts-hack-web
-```
+Install the lastest version of [Hack](https://github.com/source-foundry/Hack#linux) fonts.
 
 ## Fix Unicode fonts rendering
 
