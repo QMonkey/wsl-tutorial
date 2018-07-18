@@ -93,7 +93,7 @@ with
 <allow_anonymous/>
 ```
 
-in /etc/dbus-1/session.conf.
+in /etc/dbus-1/settings.conf.
 
 ## Open display server
 
