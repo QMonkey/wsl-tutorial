@@ -59,9 +59,10 @@ Add DISPLAY=:0.0 to your `~/.bashrc`, and don't forget to run `source ~/.bashrc`
 
 ```bash
 export DISPLAY=:0.0
+export LIBGL_ALWAYS_INDIRECT=1
 ```
 
-## Fix dbus error
+## Fix dbus error (Only Ubuntu 14.04)
 
 You need to replace
 
@@ -77,7 +78,7 @@ with
 
 in /etc/dbus-1/session.conf.
 
-## Fix connection refused
+## Fix connection refused (Only Ubuntu 14.04)
 
 You need to replace
 
