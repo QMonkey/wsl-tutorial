@@ -62,7 +62,7 @@ export DISPLAY=:0.0
 export LIBGL_ALWAYS_INDIRECT=1
 ```
 
-## Fix dbus error (Only Ubuntu 14.04)
+## Fix dbus error (Only Ubuntu 14.04 and Ubuntu 16.04)
 
 You need to replace
 
