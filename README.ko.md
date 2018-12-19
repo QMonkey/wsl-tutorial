@@ -154,7 +154,7 @@ sudo apt-get install fcitx
 sudo apt-get install fcitx-pinyin
 ```
 
-- 한글 사용 가능. [[Ubuntu] fcitx 한글 키보드 입력 사용하기](https://m.blog.naver.com/opusk/220986268503)
+- 참조: [[Ubuntu] fcitx 한글 키보드 입력 사용하기](https://m.blog.naver.com/opusk/220986268503)
 
 #### 2. bashrc 파일에 다음 명령을 추가하십시오
 
