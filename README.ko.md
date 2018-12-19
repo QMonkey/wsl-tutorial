@@ -1,6 +1,7 @@
 # wsl-tutorial 
 
 - :kr: Translated into Korean
+- Corrected mistakes
 
 이 튜토리얼에서는 Linux 용 Windows 서브 시스템에서 데스크탑 환경을 실행하는 방법을 설명합니다. 더 이상 가상 시스템으로 개발 환경을 구축할 필요가 없습니다. :)
 
@@ -10,9 +11,9 @@
 
 ## 선행 요건
 
-귀하의 PC는 **Windows 10 애니버서리 업데이트 빌드 14393 이상**의 64 비트 버전을 실행하고 있어야합니다.
+귀하의 PC는 **Windows 10 애니버서리 업데이트 빌드 14393 이상** 의 64 비트 버전을 실행하고 있어야합니다.
 
-PC의 CPU 아키텍처와 Windows 버전/빌드 번호를 확인하려면 **설정 > 시스템 > 정보**를 엽니다. OS 빌드 및 시스템 유형 필드를 찾으십시오.
+PC의 CPU 아키텍처와 Windows 버전/빌드 번호를 확인하려면 **설정 > 시스템 > 정보** 를 엽니다. OS 빌드 및 시스템 유형 필드를 찾으십시오.
 
 ![system](pictures/system.png "system")
 
@@ -81,7 +82,7 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 /etc/dbus-1/session.conf 입니다.
 
-## 연결 거부 수정. (우분투 14.04 만 해당)
+## 연결 거부 수정 (우분투 14.04 만 해당)
 
 바꿔야 합니다.
 
@@ -100,7 +101,7 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 ## 디스플레이 서버 열기
 
-**XLaunch** 를 열고 "One large window" 또는 "One large window without titlebar" 를 선택하고 "display number"를 0으로 설정하십시오.
+([VcXsrv](https://sourceforge.net/projects/vcxsrv/) 의) **XLaunch** 를 열고 "One large window" 또는 "One large window without titlebar" 를 선택하고 "display number"를 0으로 설정하십시오.
 
 다른 설정은 기본값으로 두고 구성을 완료합니다.
 
@@ -112,6 +113,11 @@ export LIBGL_ALWAYS_INDIRECT=1
 
 ```bash
 startxfce4
+```
+
+- startxfce4 가 없는 경우 다음도 설치
+```
+sudo apt install xfce4-session
 ```
 
 ## powerline 글꼴 렌더링 수정
