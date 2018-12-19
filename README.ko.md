@@ -24,7 +24,7 @@ Windows에서 Bash를 실행하려면 다음과 같이 수동으로 해야 합�
 
 ![developer](pictures/developer.png "developer")
 
-#### 2. "Linux 용 Windows 서브 시스템 (베타)"기능 사용 가능
+#### 2. "Linux 용 Windows 서브 시스템 (베타)" 기능 사용 가능
 
 ![windwos_features](pictures/windows_features.png "windows_features")
 
@@ -133,7 +133,7 @@ sudo apt-get install fonts-noto-unhinted
 sudo apt-get install fonts-noto-cjk
 ```
 
-## mkdir 명령의 권한이 오류 수정
+## mkdir 명령 권한 오류 수정
 
 bashrc 에 다음 쉘 코드를 추가하십시오.
 
@@ -153,6 +153,8 @@ fi
 sudo apt-get install fcitx
 sudo apt-get install fcitx-pinyin
 ```
+
+- 한글 사용 가능. [[Ubuntu] fcitx 한글 키보드 입력 사용하기](https://m.blog.naver.com/opusk/220986268503)
 
 #### 2. bashrc 파일에 다음 명령을 추가하십시오
 
