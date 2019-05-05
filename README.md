@@ -62,7 +62,7 @@ export DISPLAY=:0.0
 export LIBGL_ALWAYS_INDIRECT=1
 ```
 
-## Fix dbus error (Only Ubuntu 14.04)
+## Fix dbus error
 
 You need to replace
 
@@ -76,9 +76,9 @@ with
 <listen>tcp:host=localhost,port=0</listen>
 ```
 
-in /etc/dbus-1/session.conf.
+in /etc/dbus-1/session.conf or [/usr/share/dbus-1/session.conf (ubuntu 16+)](https://github.com/QMonkey/wsl-tutorial/issues/3).
 
-## Fix connection refused (Only Ubuntu 14.04)
+## Fix connection refused
 
 You need to replace
 
@@ -93,7 +93,7 @@ with
 <allow_anonymous/>
 ```
 
-in /etc/dbus-1/session.conf.
+in /etc/dbus-1/session.conf or [/usr/share/dbus-1/session.conf (ubuntu 16+)](https://github.com/QMonkey/wsl-tutorial/issues/3).
 
 ## Open display server
 
