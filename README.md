@@ -2,6 +2,8 @@
 
 The tutorial will tell you how to run desktop environment inside Windows Subsystem for Linux. And you don't need to build a developement environment with virtual machines any more. :)
 
+[wsl2-tutorial](README.wsl2.md)
+
 ## Screenshot
 
 ![wsl](pictures/wsl.png "wsl")
