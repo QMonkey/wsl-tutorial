@@ -64,7 +64,7 @@ export DISPLAY=:0.0
 export LIBGL_ALWAYS_INDIRECT=1
 ```
 
-## Fix dbus error (Only Ubuntu 14.04)
+## Fix dbus error (Only Ubuntu 14.04) and only if your Windows version is older than 1803
 
 You need to replace
 
@@ -80,7 +80,7 @@ with
 
 in /etc/dbus-1/session.conf.
 
-## Fix connection refused (Only Ubuntu 14.04)
+## Fix connection refused (Only Ubuntu 14.04) and only if your Windows version is older than 1803
 
 You need to replace
 
