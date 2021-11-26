@@ -162,5 +162,5 @@ Please enjoy your development environment. :)
 
 ## References
 
-- [Installation Instructions for WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install)
+- [Installation Instructions for WSL 2](https://docs.microsoft.com/en-us/windows/wsl/install)
 - [Can't use X-Server in WSL 2](https://github.com/microsoft/WSL/issues/4106)
